@@ -21,6 +21,10 @@ $('document').ready(() => {
 
     goPage();
 
+    if($( window ).width() < 1000) {
+        alert('Please Open With Desktop');
+    }
+
     $('footer ul li').click(({ currentTarget }) => {
         goPage(currentTarget.attributes['view-target'].value);
     });
