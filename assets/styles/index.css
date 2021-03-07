@@ -189,6 +189,7 @@ main div.portofolio-title{
 main div.portofolio-content{
     width: 23%;
     margin: 0 2%;
+    flex-grow: 1;
     padding: 20px 3%;
     border-radius: 5px;
     border: 1px solid black;
@@ -203,6 +204,55 @@ main div.portofolio-content h3{
     margin-bottom: 10px;
     text-align: justify;
 }
+
+
+main div.page-experience{
+    display: flex;
+    justify-content: center;
+}
+
+main div.experience-wrap{
+    display: flex;
+    overflow-x: visible;
+    justify-content: center;
+    width: 80%;
+}
+
+main div.experience-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main div.experience-title{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+main div.experience-content{
+    width: 23%;
+    margin: 0 2%;
+    flex-grow: 1;
+    padding: 20px 3%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+main div.experience-content p{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+main div.experience-content h5{
+    text-align: start;
+}
+
+main div.experience-content h3{
+    margin-bottom: 10px;
+    text-align: start;
+}
+
 
 footer {
     border-top: 4px solid black;

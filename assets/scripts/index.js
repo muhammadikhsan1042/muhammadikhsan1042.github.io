@@ -26,6 +26,10 @@ $('document').ready(() => {
     }
 
     $('footer ul li').click(({ currentTarget }) => {
+        if (currentTarget.attributes['view-target'].value == 'page-blog') {
+            console.log('1');
+            window.location.replace("http://www.blog.muhammadikhsan.my.id");
+        }
         goPage(currentTarget.attributes['view-target'].value);
     });
 });
